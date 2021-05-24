@@ -15,20 +15,18 @@ std::cout << std::endl;
 
 //2
 int c = 2;
-if (c == 2 && c == 3 && c == 5 && c == 7 && c % c == 0 && c % 1 == 0 ) {
+if (c % c == 0 && c % 1 == 0 && c == 2 || c == 3 || c == 5 || c == 7) {
   std::cout << "NUM: " << c << "  This number is prime because it is divisible by 1 and by itself" << std::endl;
 }
-else if
-else if
-else if
-else if
 else if (c > 7 && c % c == 0 && c % 1 == 0 && c != 2 && c != 3 && c !=5 && c % 2 != 0 && c % 3 != 0 && c % 4 != 0 && c %5 != 0) {
   std::cout << "NUM: " << c << "  This number is prime because it is divisible by 1 and by itself" << std::endl;
 }
   else {
-    std::cout << "NUM: " << c << "  This ar not prime number, because is didn't devisible by itself" << std::endl;
+    std::cout << "NUM: " << c << "  This number is not prime, since it has more divisors than 1 and the number itself" << std::endl;
   };
 std::cout << "If you wanna try another number, please change c, and repeat compile" << std::endl;
 std::cout << std::endl;
+
+//3
      return 0;
 }
