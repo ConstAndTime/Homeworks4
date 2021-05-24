@@ -49,6 +49,31 @@ std::cout << "If you wanna try another number, please change p1 and p2, and repe
 std::cout << std::endl;
 
 //4
+for (int t1 = 1; t1 <9; t1++) {
+  for (int t2 = 1; t2 <9; t2++) {
+  if (t1 != t2) {
+    t1 == 0;
+    t2 == 0;
+        }
+        else {
+          t1 == 1;
+          t2 == 1;
+        }
+      //printf("%3d", t1 * t2);
+      }
+      std::cout << std::endl;
+    }
+
+//5
+int year = 900;
+if (year % 400 != 0 && year % 100 == 0 || year % 4 != 0) {
+  std::cout << "Years: " << year << "  are not leap year, because " << year << " not divisible by 4, or is 100, other than 400." << std::endl;
+}
+  else {
+  std::cout << "Years: " << year << "  are leap year, because " << year << " are divisible by 4, and is not 100, expect 400." << std::endl;
+  }
+std::cout << std::endl;
+std::cout << "If you want to check another year, please change year, and repeat compile." << std::endl;
 
      return 0;
 }
