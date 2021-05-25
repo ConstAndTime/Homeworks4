@@ -59,7 +59,7 @@ for (int t1 = 1; t1 <9; t1++) {
           t1 == 1;
           t2 == 1;
         }
-      //printf("%3d", t1 * t2);
+      printf("%3d", t1 * t2);
       }
       std::cout << std::endl;
     }
